@@ -10,9 +10,9 @@ module OmniAuth
       # This is where you pass the options you would pass when
       # initializing your consumer from the OAuth gem.
       option :client_options, {
-        :site => "https://api.test.smartsheet.com/2.0",
-        :authorize_url => "https://app.test.smartsheet.com/b/authorize",
-        :token_url => "https://api.test.smartsheet.com/2.0/token"
+        :site => "https://mars.lab.smartsheet.com/feature25/rest/2.0",
+        :authorize_url => "https://mars.lab.smartsheet.com/feature25/authorize",
+        :token_url => "https://mars.lab.smartsheet.com/feature25/rest/2.0/token"
       }
 
       # These are called after authentication has succeeded. If
